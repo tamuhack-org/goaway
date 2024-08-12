@@ -1,7 +1,7 @@
 import express from "express";
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.port || 3000;
 
 const REDIRECTS = {
     "www.nitroguy.xyz": ["https://nitroguy.xyz", 301],
