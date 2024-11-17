@@ -19,6 +19,10 @@ const REDIRECTS = {
     "slither.tamuhack.com": ["https://slither.tamuhack.org", 301],
     "team.tamuhack.com": ["https://team.tamuhack.org", 301],
     "x.tamuhack.com": ["https://x.tamuhack.org", 301],
+
+    // .org -> .org
+    "www.tamuhack.org": ["https://tamuhack.org", 301],
+    "help.tamuhack.org": ["https://helpr.tamuhack.org", 301],
 };
 
 app.get("*", (req, res) => {
