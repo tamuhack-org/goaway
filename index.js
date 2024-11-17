@@ -4,12 +4,7 @@ const app = express();
 const PORT = process.env.port || 3000;
 
 const REDIRECTS = {
-    "www.nitroguy.xyz": ["https://nitroguy.xyz", 301],
-    "www.thesass.xyz": ["https://thesass.xyz", 301],
-    "www.naviyer.com": ["https://naviyer.com", 301],
-
-    "thesass.xyz": ["https://nitroguy.xyz", 302],
-    "naviyer.com": ["https://nitroguy.xyz", 302],
+    "tamuhack.com": ["https://tamuhack.org", 301],
 };
 
 app.get("*", (req, res) => {
