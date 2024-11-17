@@ -4,7 +4,21 @@ const app = express();
 const PORT = process.env.port || 3000;
 
 const REDIRECTS = {
+    // .org -> .com
+    "register.tamuhack.org": ["https://register.tamuhack.com", 301],
+
+    // .com -> .org
     "tamuhack.com": ["https://tamuhack.org", 301],
+    "www.tamuhack.com": ["https://tamuhack.org", 301],
+    "dev.tamuhack.com": ["https://dev.tamuhack.org", 301],
+    "helpr.tamuhack.com": ["https://helpr.tamuhack.org", 301],
+    "help.tamuhack.com": ["https://helpr.tamuhack.org", 301],
+    "hh23.tamuhack.com": ["https://hh23.tamuhack.org", 301],
+    "hh24.tamuhack.com": ["https://hh24.tamuhack.org", 301],
+    "hoot.tamuhack.com": ["https://hoot.tamuhack.org", 301],
+    "slither.tamuhack.com": ["https://slither.tamuhack.org", 301],
+    "team.tamuhack.com": ["https://team.tamuhack.org", 301],
+    "x.tamuhack.com": ["https://x.tamuhack.org", 301],
 };
 
 app.get("*", (req, res) => {
