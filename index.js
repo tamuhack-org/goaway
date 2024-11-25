@@ -19,6 +19,7 @@ const REDIRECTS = {
     "slither.tamuhack.com": ["https://slither.tamuhack.org", 301],
     "team.tamuhack.com": ["https://team.tamuhack.org", 301],
     "x.tamuhack.com": ["https://x.tamuhack.org", 301],
+    "th25.tamuhack.com": ["https://th25.tamuhack.org", 301],
 
     // .org -> .org
     "www.tamuhack.org": ["https://tamuhack.org", 301],
