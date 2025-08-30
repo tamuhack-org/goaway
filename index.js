@@ -15,6 +15,7 @@ const REDIRECTS = {
     "help.tamuhack.com": ["https://helpr.tamuhack.org", 301],
     "hh23.tamuhack.com": ["https://hh23.tamuhack.org", 301],
     "hh24.tamuhack.com": ["https://hh24.tamuhack.org", 301],
+    "hh25.tamuhack.com": ["https://hh25.tamuhack.org", 301],
     "hoot.tamuhack.com": ["https://hoot.tamuhack.org", 301],
     "slither.tamuhack.com": ["https://slither.tamuhack.org", 301],
     "team.tamuhack.com": ["https://team.tamuhack.org", 301],
